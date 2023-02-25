@@ -1,0 +1,67 @@
+.trending-container {
+  background: $color-5;
+  border-radius: 20px;
+  margin-bottom: 14px;
+  padding: 20px;
+  width: 356px;
+  border: 3px solid rgb(251, 255, 254);
+
+
+  h4 {
+    font-size: 1.0rem;
+    color: $color-4;
+    font-family: $font-2;
+    margin-bottom: 12px;
+  }
+  ul {
+    li {
+      margin: 5px 0;
+      display: grid;
+      align-items: center;
+      grid-template-columns: 68px 1fr;
+      background: black;
+      border-radius: 20px;
+      padding: 16px;
+      transition: 0.2s;
+      border: 2px solid rgb(0, 255, 238);
+      box-shadow: 0 0 10px black;
+
+      &:hover {
+        box-shadow: none;
+      }
+
+      div {
+        height: 56px;
+      }
+
+      img,
+      iframe {
+        height: 56px;
+        width: 56px;
+        border-radius: 20px;
+        object-fit: cover;
+        box-shadow: 0 0 4px rgb(255, 255, 255);
+      }
+      .trend-content {
+        position: relative;
+        height: 56px;
+
+        p {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+          font-size: 0.9rem;
+          color: rgb(255, 255, 255);
+        }
+        span {
+          color: $color-4;
+          font-family: $font-3;
+          position: absolute;
+          right: 6px;
+          bottom: -11px;
+        }
+      }
+    }
+  }
+}
