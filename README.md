@@ -5,6 +5,7 @@
 ### React / Express / MongoDB / Redux
 
 Télécharger les dépendence de script et linter: `npm i`
+
 Télécharger les dépendences du projet: `npm run install-all`
 
 Démarrer le projet: `npm run dev`
