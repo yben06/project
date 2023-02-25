@@ -7,6 +7,7 @@
 Télécharger les dépendence de script et linter: `npm i`
 
 Télécharger les dépendences du projet: `npm run install-all`
+
 ( PS attendre la fin du téléchargement )
 
 Démarrer le projet: `npm run dev`
